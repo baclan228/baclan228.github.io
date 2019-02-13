@@ -650,5 +650,13 @@ footer{
 }
 /* END FOOTER */
 
-
-
+/* START BUTTON TOP */
+#top {
+  bottom: 10px;
+  cursor: pointer;
+  display: none;
+  font-size: 150%;
+  position: fixed;
+  right: 10px;
+}
+/* END BUTTON TOP */
