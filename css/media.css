@@ -12,8 +12,10 @@
 }
 
 @media screen and (max-width: 780px) {
+	.header_menu{ display: flex; }
+	.header__logo{ display: none; }
 	.header__nav{ display: none; }
-	.banner__content{ margin-top: 43px; text-align: center; }
+	.banner__content{ margin-top: 53px; text-align: center; }
 	.banner__description p{ padding: 0px 20px; }
 	.banner_button button{ margin-top: 0px; }
 }
@@ -21,6 +23,7 @@
 @media screen and (max-width: 600px) {
 	.section__aboutUs{ width: 100%; }
 	.banner__content{ width: 100%; }
+	.banner__content{ float: none; }
 }
 
 @media screen and (max-width: 500px) {

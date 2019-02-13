@@ -8,6 +8,27 @@ body{
 	/*width: 100%;*/
 	margin: 0px auto;
 }
+/* START HEADER MENU */
+.header_menu{
+	z-index: 2;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	background: rgb(220, 220, 220, 0.80);
+	display: none;
+}
+
+.header_menu__logo{
+	flex: 1;
+	padding: 15px;
+}
+
+.header_menu__ico{
+	padding: 10px;
+	float: right;
+	cursor: pointer;
+}
+/* END HEADER MENU */
 
 /* START HEADER */
 header{

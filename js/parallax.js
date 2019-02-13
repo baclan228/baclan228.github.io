@@ -7,4 +7,10 @@ $(window).scroll(function() {
 	$('.header').css({
 		"transform" : "translate(0%, "+ st +"%)"
 	});
+	/*console.log(st);
+	if(st > 10){
+		
+	}else{
+		alert('меньше');
+	}*/
 });
