@@ -61,3 +61,15 @@
 	.box__work img{ width: 100px; height: 100px;}
 }
 /* END MEDIA ONE PAGE */
+
+
+
+/* START MEDIA ABOUT */
+@media screen and (max-width: 900px) {
+	.banner_title2{ left: 3%; }
+}
+
+@media screen and (max-width: 500px) {
+	.bg{ height: 250px; }
+}
+/* END MEDIA ABOUT */

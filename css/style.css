@@ -63,11 +63,11 @@ body{
 
 /* START HEADER MENU */
 .header_menu{
-	z-index: 2;
+	z-index: 6;
 	width: 100%;
 	position: fixed;
 	display: flex;
-	background: rgb(220, 220, 220, 0.80);
+	background: #FFF;
 	display: none;
 }
 
@@ -699,17 +699,18 @@ footer{
 /* END FOOTER */
 
 
-
-
-
-
-
-
-
-
-
-
 /* END INDEX.HTML */
+
+
+
+
+
+
+
+
+
+
+
 
 /* START HOME.HTML */
 
@@ -748,3 +749,115 @@ footer{
 /* END TEXT */
 
 /* END HOME.HTML */
+
+
+
+
+
+
+
+
+
+
+/* START ABOUT.HTML */
+
+/* START BANNER ABOUT */
+#vi_port{
+	position: relative;
+	overflow: hidden;
+}
+
+.bg{
+	height: 300px;
+}
+
+.banner_title2{
+	position: absolute;
+	z-index: 5;
+	top: 20%;
+	left: 16%;
+}
+
+.banner_title2 h3{
+	color: #FFF;
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner_title2 p{
+	color: #FFF;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+}
+
+.bg img{
+	width: 100%;
+	position: absolute;
+	/*top: -50px;*/
+}
+/* END BANNER ABOUT */
+
+/* START SECTION ABOUT */
+.about{
+	display: flex;
+}
+
+.about_img{
+	flex: 1;
+	background: url(../img/work/box-10.jpg);
+	background-size: cover;
+}
+
+.about_content{
+	flex: 1;
+	padding: 80px 60px;
+	background: #f5f5f5;
+}
+
+.about_content__title h3{
+	font-size: 30px;
+	color: #171717;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about_content__text p{
+	font-size: 16px;
+	color: #787878;
+	font-family: 'Nunito Sans', sans-serif;
+}
+/* END SECTION ABOUT */
+
+/* START NEED PROJECT */
+.need_project_about{
+	padding: 80px 0px;
+}
+
+.need_project__button{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.need_project__button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 20px 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #10c9c3;
+}
+/* END NEED PROJECT */
+
+
+
+
+
+
+
+
+
+
+
+/* END ABOUT.HTML */

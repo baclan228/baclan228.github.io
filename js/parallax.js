@@ -8,6 +8,11 @@ $(window).scroll(function() {
 		"transform" : "translate(0%, "+ st +"%)"
 	});
 
+
+	$('.bg img').css({
+		"transform" : "translate(0%, -"+ st/20 +"%)"
+	});
+
 	if (st > 609){
 		$('.progress_one').css("width", "75%");
 		$('.progress_two').css("width", "90%");
