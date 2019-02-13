@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/onclick.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet"> 
 </head>
@@ -19,10 +20,28 @@
 			<img src="ico/logo.png" alt="Logo">
 		</div>
 		<div class="header_menu__ico">
-			<img src="ico/menu.png">
+			<img onclick="menu()" src="ico/menu.png">
 		</div>
 	</div>
 	<!-- End Header Menu -->
+
+	<!-- Start Pop-Window -->
+	<div class="pop_window">
+		<div class="pop_window__nav">
+			<ul>
+				<img onclick="close_menu()" src="ico/close.png" alt="close">
+				<li><a href="#">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">work</a></li>
+				<li><a href="#">process</a></li>
+				<li><a href="#">services</a></li>
+				<li><a href="#">testimonials</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- End Pop-Window -->
+	
 	<!-- Start Header -->
 	<header>
 		<div class="wrap">
