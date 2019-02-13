@@ -37,4 +37,13 @@
 	.box__work{ width: 300px; height: 250px; }
 	.box__work img{ width: 300px; height: 250px;}
 }
+
+@media screen and (max-width: 340px) {
+	.static__li{ margin: 30px 0px; }
+}
+
+@media screen and (max-width: 300px) {
+	.box__work{ width: 100px; height: 100px; }
+	.box__work img{ width: 100px; height: 100px;}
+}
 /* END MEDIA ONE PAGE */
