@@ -9,6 +9,8 @@
 
 @media screen and (max-width: 920px) {
 	.wrap{ width: 100%; }
+	.work_process__video{ height: 400px; }
+	#play{ margin-top: 50px; }
 }
 
 @media screen and (max-width: 780px) {
@@ -18,12 +20,18 @@
 	.banner__content{ margin-top: 53px; text-align: center; }
 	.banner__description p{ padding: 0px 20px; }
 	.banner_button button{ margin-top: 0px; }
+	.work_process__video{ height: 300px; }
+	#play{ margin-top: 50px; }
 }
 
 @media screen and (max-width: 600px) {
 	.section__aboutUs{ width: 100%; }
 	.banner__content{ width: 100%; }
 	.banner__content{ float: none; }
+	.work_process__video{ height: 200px; }
+	#play{ margin-top: 30px; }
+	.slide1, .slide2, .slide3{ height: 300px }
+	.slide__box{ margin: 80px 0px; }
 }
 
 @media screen and (max-width: 500px) {
@@ -31,6 +39,7 @@
 	.box__work{ width: 200px; height: 150px; }
 	.box__work img{ width: 200px; height: 150px;}
 	.need_project__form{ display: flex; justify-content: center; }
+	.need_project__form form{ text-align: center; }
 	.slide__title h3{ width: 100%; }
 	#name{ margin-right: 0px; margin-bottom: 20px; }
 	#name, #email, #title, #mess{ width: 70%; }
@@ -39,6 +48,8 @@
 @media screen and (max-width: 400px) {
 	.box__work{ width: 300px; height: 250px; }
 	.box__work img{ width: 300px; height: 250px;}
+	.work_process__video{ height: 150px; }
+	#play{ margin-top: 25px; }
 }
 
 @media screen and (max-width: 340px) {
