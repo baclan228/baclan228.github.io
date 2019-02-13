@@ -160,23 +160,35 @@ header{
 
 .progress_one{
 	position: relative;
-	width: 60%;
+	/*width: 60%;*/
 	height: 5px;
 	background: #10c9c3;
+	-o-transition: all 0.8s ease-in-out;
+  	-moz-transition: all 0.8s ease-in-out;
+  	-webkit-transition: all 0.8s ease-in-out;
+  	transition: all 0.8s ease-in-out;
 }
 
 .progress_two{
 	position: relative;
-	width: 80%;
+	/*width: 80%;*/
 	height: 5px;
 	background: #10c9c3;
+	-o-transition: all 0.8s ease-in-out;
+  	-moz-transition: all 0.8s ease-in-out;
+  	-webkit-transition: all 0.8s ease-in-out;
+  	transition: all 0.8s ease-in-out;
 }
 
 .progress_three{
 	position: relative;
-	width: 50%;
+	/*width: 50%;*/
 	height: 5px;
 	background: #10c9c3;
+	-o-transition: all 0.8s ease-in-out;
+  	-moz-transition: all 0.8s ease-in-out;
+  	-webkit-transition: all 0.8s ease-in-out;
+  	transition: all 0.8s ease-in-out;
 }
 
 .skills_img {
@@ -320,6 +332,11 @@ header{
 	width: 245px;
 	text-align: center;
 	margin: 20px 10px;
+	opacity: 0;
+	-o-transition: all 0.8s ease-in-out;
+  	-moz-transition: all 0.8s ease-in-out;
+  	-webkit-transition: all 0.8s ease-in-out;
+  	transition: all 0.8s ease-in-out;
 }
 
 .services_top{
