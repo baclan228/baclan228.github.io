@@ -1,4 +1,8 @@
 /* START MEDIA ONE PAGE */
+@media screen and (max-width: 1206px) {
+	.stat__img{ float: none;  margin-right: 0px; }
+}
+
 @media screen and (max-width: 1172px) {
 	.wrap{ width: 900px; }
 }
@@ -20,9 +24,17 @@
 }
 
 @media screen and (max-width: 500px) {
+	.skills{ display: block; }
+	.box__work{ width: 200px; height: 150px; }
+	.box__work img{ width: 200px; height: 150px;}
 	.need_project__form{ display: flex; justify-content: center; }
 	.slide__title h3{ width: 100%; }
 	#name{ margin-right: 0px; margin-bottom: 20px; }
 	#name, #email, #title, #mess{ width: 70%; }
+}
+
+@media screen and (max-width: 400px) {
+	.box__work{ width: 300px; height: 250px; }
+	.box__work img{ width: 300px; height: 250px;}
 }
 /* END MEDIA ONE PAGE */
