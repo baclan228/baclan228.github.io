@@ -1,0 +1,28 @@
+/* START MEDIA ONE PAGE */
+@media screen and (max-width: 1172px) {
+	.wrap{ width: 900px; }
+}
+
+@media screen and (max-width: 920px) {
+	.wrap{ width: 100%; }
+}
+
+@media screen and (max-width: 780px) {
+	.header__nav{ display: none; }
+	.banner__content{ margin-top: 43px; text-align: center; }
+	.banner__description p{ padding: 0px 20px; }
+	.banner_button button{ margin-top: 0px; }
+}
+
+@media screen and (max-width: 600px) {
+	.section__aboutUs{ width: 100%; }
+	.banner__content{ width: 100%; }
+}
+
+@media screen and (max-width: 500px) {
+	.need_project__form{ display: flex; justify-content: center; }
+	.slide__title h3{ width: 100%; }
+	#name{ margin-right: 0px; margin-bottom: 20px; }
+	#name, #email, #title, #mess{ width: 70%; }
+}
+/* END MEDIA ONE PAGE */
