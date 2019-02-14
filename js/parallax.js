@@ -25,7 +25,7 @@ $(window).scroll(function() {
 		$('.skills_img').css("opacity", "0");
 	}
 
-	if(st > 2754){
+	if(st > 2654){
 		$('.services_box').css("opacity", "1");
 	}
 });

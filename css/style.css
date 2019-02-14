@@ -63,7 +63,7 @@ body{
 
 /* START HEADER MENU */
 .header_menu{
-	z-index: 6;
+	z-index: 1;
 	width: 100%;
 	position: fixed;
 	display: flex;
@@ -773,7 +773,7 @@ footer{
 
 .banner_title2{
 	position: absolute;
-	z-index: 5;
+	z-index: 1;
 	top: 20%;
 	left: 16%;
 }
