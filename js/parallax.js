@@ -29,10 +29,16 @@ $(window).scroll(function() {
 });
 
 $(window).ready(function(){
-	
+
+	if ($(window).width() <= '460'){
 	$('.banner__content').delay(800).animate({
+		'margin-top': '60px', 'opacity': '1'
+	}, 1000);
+	}else{
+		$('.banner__content').delay(800).animate({
 		'margin-top': '143px', 'opacity': '1'
 	}, 1000);
+	}
 
 	$('#bt').animate({
 		'background': 'red', 'opacity': '1'
