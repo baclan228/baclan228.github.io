@@ -1,5 +1,3 @@
-
-
 $(window).scroll(function() {
 	var st = $(this).scrollTop();
 
@@ -23,7 +21,7 @@ $(window).scroll(function() {
 		$('.skills_img').css("opacity", "0");
 	}
 
-	if(st > 2654){
+	if(st > 2354){
 		$('.services_box').css("opacity", "1");
 	}
 });
@@ -46,4 +44,3 @@ $(window).ready(function(){
 
 
 });
-
