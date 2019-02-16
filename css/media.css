@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 1172px) {
 	.wrap{ width: 900px; }
+	.banner__content{ width: 100%; }
 }
 
 @media screen and (max-width: 920px) {

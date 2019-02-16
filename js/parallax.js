@@ -1,13 +1,11 @@
+
+
 $(window).scroll(function() {
 	var st = $(this).scrollTop();
-	
-	$('.banner__content').css({
-		"transform" : "translate(0%, "+ st/18 +"%)"
-	});
-	$('.header').css({
-		"transform" : "translate(0%, "+ st +"%)"
-	});
 
+	$('.bg_head img').css({
+		"transform" : "translate(0%, -"+ st/25 +"%)"
+	});
 
 	$('.bg img').css({
 		"transform" : "translate(0%, -"+ st/20 +"%)"
@@ -30,5 +28,16 @@ $(window).scroll(function() {
 	}
 });
 
+$(window).ready(function(){
+	
+	$('.banner__content').delay(800).animate({
+		'margin-top': '143px', 'opacity': '1'
+	}, 1000);
 
+	$('#bt').animate({
+		'background': 'red', 'opacity': '1'
+	}, 100);
+
+
+});
 
