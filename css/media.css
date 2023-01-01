@@ -87,4 +87,43 @@
 	.portfolio-title span {
 		font-size: 22px;
 	}
+
+	.cnt-conteiner {
+		display: block;
+		text-align: center;
+		padding: 88px 0px;
+	}
+
+	.cnt-content-title {
+		margin-bottom: 22px;
+	}
+
+	.cnt-content-title h2 {
+		font-size: 24px;
+	}
+
+	.cnt-button {
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	.footer-nav {
+		padding: 20px 0px;
+		text-align: center;
+	}
+
+	.footer-nav a {
+		font-size: 14px;
+		margin-right: 18px;
+	}
+
+	.soc {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+
+	.copy {
+		padding: 48px 0px;
+		text-align: center;
+	}
 }
