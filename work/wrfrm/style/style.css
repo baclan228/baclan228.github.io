@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #FFF;
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #FFF;
+}
+
+h2 {
+    color: #505a78;
+    font-weight: 900; 
+}
+
+h3 {
+    color: #a5abbb;
+    font-size: 15px;
+}
+
+i {
+    color: #505a78;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+/* 1.Header */
+header {
+    
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    color: #505a78;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header_ul {
+    
+}
+
+.header_ul ul {
+    list-style: none;
+}
+
+.header_ul li {
+    padding: 10px;
+}
+
+.header_ul a {
+    color: #505a78;
+    padding: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.header_ul a:hover {
+    text-decoration: underline;
+}
+
+.header_banner {
+    height: 600px;
+    background: #505a78;
+    width: 100%;
+}
+
+.header_banner_content {
+    max-width: 610px;
+    flex: 1;
+    margin-top: 150px;
+}
+
+.header_banner_description {
+    margin-top: 30px;
+}
+
+.header_banner_button {
+    margin-top: 23px;
+}
+
+.header_banner_button button {
+    background: #7cdf95;
+    border: 2px solid #424d6c;
+    padding: 10px;
+    cursor: pointer;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 150px;
+}
+
+.header_banner_img img {
+    float: right;
+}
+
+/* Section Work */
+.work_title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.work_descripton {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    color: #a5abbb;
+}
+
+.work_nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.work_nav li {
+    padding: 10px;
+}
+
+.work_nav span {
+    padding: 10px;
+    color: #a5abbb;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.work_nav span:hover {
+    color: #505a78;
+}
+
+.work_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work_box_content {
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.work_box_content img {
+    width: 300px;
+    height: 250px;
+    background: #505a78;
+}
+
+/* Section 3 */
+.three {
+    background: #505a78;
+    padding: 20px;
+}
+
+.three_box_content {
+    width: 400px;
+    flex: 1;
+}
+
+.three_box_content h3 {
+    margin-top: 10px;
+}
+
+.three_box_button {
+    display: flex;
+    align-items: center;
+}
+
+.three_box_button button {
+    padding: 10px;
+    border: 2px solid #424d6c;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#btn-one {
+    background: none;
+}
+
+#btn-two {
+    background: #7cdf95;
+}
+
+/* Section blog */
+.blog {
+    margin: 30px 0;
+}
+
+.blog_title {
+    text-align: center;
+}
+
+.blog_description {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.blog_description span {
+    color: #a5abbb;
+}
+
+.blog_box {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.blog_box_content {
+    width: 550px;
+    margin: 10px;
+}
+
+#triangle-bottomright {
+    opacity: 0;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 0;
+	height: 0;
+	border-bottom: 100px solid red; 
+	border-left: 100px solid transparent;
+}
+
+.blog_box_content img:hover + #triangle-bottomright {
+    opacity: 1;
+}
+
+#blog_title {
+    width: 400px;
+    margin-left: 10px;
+}
+
+#blog_title span {
+    margin-top: 15px;
+    color: #a5abbb;
+}
+
+#blog_title h3 {
+    margin-top: 15px;
+}
+
+/* Section Email */
+.email {
+    background: #505a78;
+    padding: 15px;
+}
+
+.email_text_title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.email_form {
+    display: flex;
+    align-items: center;
+}
+
+#email_input {
+    padding: 8px;
+    border: 2px solid #424d6c;
+    outline: none;
+}
+
+#submit {
+    padding: 6px;
+    border: 2px solid #424d6c;
+    background: #7cdf95;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* Section About */
+.about {
+    margin: 50px 0;
+}
+
+.about_title {
+    text-align: center;
+}
