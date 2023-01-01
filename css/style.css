@@ -83,7 +83,7 @@ header {
 }
 
 .header-section:hover {
-	transform: translateY(-5%);
+	transform: translateY(5%);
 }
 
 .header-section-content {
