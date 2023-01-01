@@ -79,6 +79,11 @@ header {
     left: 45%;
     text-align: left;
     width: 596px;
+    transition: transform 0.5s cubic-bezier(0.330, -0.330, 0.645, 1.380);
+}
+
+.header-section:hover {
+	transform: translateY(-5%);
 }
 
 .header-section-content {
