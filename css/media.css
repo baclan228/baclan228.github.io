@@ -1,0 +1,90 @@
+@media screen and (max-device-width: 375px) {
+	.wrapp {
+		width: 100%;
+	}
+	.header-nav, .header-button {
+		display: none;
+	}
+	.header-logo {
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	.header-logo a {
+		font-size: 22px;
+	}
+
+	header {
+		height: 50vh;
+		background-size:100% 50vh;
+	}
+
+	.header-section {
+    	top: 10%;
+    	left: 32%;
+    	width: 240px;
+	}
+
+	.header-section-content {
+		margin-bottom: 15px;
+	}
+
+	.header-section-content span {
+		font-size: 16px;
+	}
+
+	.header-section-desc span {
+		font-size: 20px;
+	}
+
+	.header-section-descriptio {
+		margin-top: 10px;
+	}
+
+	.header-section-descriptio span {
+		font-size: 11px;
+	}
+
+	.header-section-btn {
+		margin-top: 30px;
+	}
+
+	.header-section-btn a {
+		font-size: 13px;
+		padding: 10px 30px;
+	}
+
+	.services-title {
+		padding: 40px 0px;
+	}
+
+	.services-title span {
+		font-size: 22px;
+	}
+
+	.services-conteiner-box {
+		width: 250px;
+		height: 226px;
+	}
+
+	.services-conteiner-box img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.services-conteiner-box span {
+		font-size: 16px;
+	}
+
+	.portfolio {
+		padding: 40px 0px;
+	}
+
+	.portfolio-title {
+		margin-bottom: 50px;
+	}
+
+	.portfolio-title span {
+		font-size: 22px;
+	}
+}
